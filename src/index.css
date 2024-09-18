@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #282c34;
+  color: #fff;
+  padding: 20px;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: #d79a00;
+  color: #000;
+  outline: none;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.weatherInfo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.city {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.temp {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.details {
+  font-size: 1rem;
+}
